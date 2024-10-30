@@ -1,0 +1,43 @@
+.chch-repeater {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.chch-repeater-row:nth-child(odd) {
+  background: rgba(241, 241, 241, 0.3);
+}
+
+.chch-contact-free-reapeter-field-wrapper.chch-contact-free-checkbox-wrapper {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.chch-contact-free-reapeter-field-wrapper label {
+  display: inline-block;
+  width: 34.5% !important;
+}
+
+.chch-contact-free-reapeter-field-wrapper input {
+  display: inline-block;
+  width: 34.5% !important;
+}
+
+.chch-contact-free-reapeter-field-wrapper.chch-contact-free-checkbox-wrapper input {
+  width: auto !important;
+}
+
+.chch-contact-free-reapeter-field-wrapper select,
+#_chch_contact_free_trigger_adapter {
+  display: inline-block;
+  width: 34.5% !important;
+  cursor: pointer;
+}
+
+.delete-email-field {
+  text-decoration: none;
+  text-align: center;
+}
+
+.delete-email-field span {
+  font-size: 25px !important;
+}

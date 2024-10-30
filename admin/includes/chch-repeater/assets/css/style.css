@@ -1,0 +1,200 @@
+.chch-repeater {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.chch-repeater-row {
+  position: relative;
+  min-height: 180px;
+}
+.chch-repeater-row:nth-child(odd) {
+  background: rgba(241, 241, 241, 0.3);
+}
+.chch-repeater-row:nth-child(even) {
+  border: 1px solid rgba(241, 241, 241, 0.7);
+}
+
+.field-count {
+  position: absolute;
+  min-width: 36px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  border-right: 2px solid #FEFEFE;
+  text-align: center;
+  line-height: 180px;
+}
+
+.chch-repeater-fields {
+  display: inline-block;
+  width: 80%;
+  padding: 10px 0 10px 60px;
+}
+.chch-repeater-fields:nth-child(odd) {
+  background: rgba(241, 241, 241, 0.3);
+}
+.chch-repeater-fields label {
+  display: inline-block;
+  width: 34.5% !important;
+}
+.chch-repeater-fields input, .chch-repeater-fields select {
+  width: 60% !important;
+  height: 31px;
+}
+.chch-repeater-fields input[type=checkbox] {
+  width: 16px !important;
+  height: 16px;
+  margin: -6px 0 0 0 !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.chch-repeater-checkbox-wrapper {
+  position: relative;
+  margin: 10px 0 0 0;
+}
+.chch-repeater-checkbox-wrapper label {
+  position: absolute;
+  left: 20px;
+  float: right;
+  font-size: 12px;
+}
+
+.chch-repeater-select {
+  width: 39.5%;
+}
+
+.chch-repeater-delete-row {
+  position: absolute;
+  width: 36px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  border-left: 2px solid #FEFEFE;
+  text-align: center;
+}
+
+.delete-email-field {
+  position: absolute;
+  width: 42px;
+  top: 50%;
+  margin: -10px 0 0 -21px;
+  color: #494949;
+  text-align: center;
+  text-decoration: none;
+}
+.delete-email-field:hover {
+  color: #ffcc00;
+}
+.delete-email-field:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.delete-email-field span {
+  font-size: 25px !important;
+  left: 0 !important;
+}
+
+.chch-repeater-add-row.button-primary, .chch-repeater-add-row.button-primary:focus {
+  margin: 10px 0 0 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #ffcc00;
+  border-color: #ffcc00;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  text-shadow: none;
+}
+.chch-repeater-add-row.button-primary:hover, .chch-repeater-add-row.button-primary:focus:hover {
+  background: #494949;
+  border-color: #494949;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+.chch-contact-free-reapeter-field-wrapper .chch-contact-free-checkbox-wrapper {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.chch-contact-free-reapeter-field-wrapper .chch-contact-free-checkbox-wrapper input {
+  width: auto !important;
+}
+.chch-contact-free-reapeter-field-wrapper label {
+  display: inline-block;
+  width: 34.5% !important;
+}
+.chch-contact-free-reapeter-field-wrapper input {
+  display: inline-block;
+  width: 34.5% !important;
+}
+.chch-contact-free-reapeter-field-wrapper select, .chch-contact-free-reapeter-field-wrapper #_chch_contact_free_trigger_adapter {
+  display: inline-block;
+  width: 34.5% !important;
+  cursor: pointer;
+}
+
+.chch-repeater-repeater-wrapper {
+  float: right;
+  width: 90%;
+  margin: 20px 22px 0 0;
+}
+.chch-repeater-repeater-wrapper > label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.chch-repeater-repeater-wrapper label {
+  font-size: 13px;
+}
+.chch-repeater-repeater-wrapper .chch-repeater-row {
+  min-height: 86px;
+  margin-bottom: 5px;
+}
+.chch-repeater-repeater-wrapper .chch-repeater-row:nth-child(even) {
+  background: #fff;
+  border: 0;
+}
+.chch-repeater-repeater-wrapper .field-count {
+  line-height: 86px;
+}
+.chch-repeater-repeater-wrapper .chch-repeater-fields {
+  width: 75%;
+}
+.chch-repeater-repeater-wrapper .delete-email-field {
+  margin: -11px 0 0 -25px;
+}
+
+.chch-lpf-tab .cmb-row {
+  margin: 0 0 15px 0;
+}
+.chch-lpf-tab .cmb-th {
+  display: inline-block;
+  width: 29% !important;
+  vertical-align: top;
+  font-weight: bold;
+}
+.chch-lpf-tab .cmb-td {
+  display: inline-block;
+  width: 68% !important;
+}
+.chch-lpf-tab .cmb-type-textarea-code {
+  width: 500px;
+  height: 200px;
+}
+.chch-lpf-tab input[type=text], .chch-lpf-tab input[type=password], .chch-lpf-tab input[type=color], .chch-lpf-tab input[type=date], .chch-lpf-tab input[type=datetime], .chch-lpf-tab input[type=datetime-local], .chch-lpf-tab input[type=email], .chch-lpf-tab input[type=month], .chch-lpf-tab input[type=number], .chch-lpf-tab input[type=tel], .chch-lpf-tab input[type=time], .chch-lpf-tab input[type=url], .chch-lpf-tab input[type=week], .chch-lpf-tab input[type=search], .chch-lpf-tab select, .chch-lpf-tab textarea {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  width: 34.5%;
+}
+.chch-lpf-tab input[type=text] {
+  width: 60%;
+}
+.chch-lpf-tab input[type=radio] {
+  width: 7px !important;
+  height: 16px !important;
+}
+.chch-lpf-tab .chch-lpf-tab select {
+  cursor: pointer;
+}
